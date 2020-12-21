@@ -1,0 +1,7 @@
+faire les migrations
+dotnet ef migrations add InitialCreate -p Persistence/ -s API/
+
+lancer l'application
+dotnet watch run
+
+
