@@ -4,4 +4,5 @@ dotnet ef migrations add InitialCreate -p Persistence/ -s API/
 lancer l'application
 dotnet watch run
 
-
+creation de notre application react avec typescript
+npx create-react-app client-app --use-npm --typescript
