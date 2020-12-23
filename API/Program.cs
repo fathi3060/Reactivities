@@ -28,6 +28,8 @@ namespace API
                 {
                     var context = services.GetRequiredService<DataContext>();
                     context.Database.Migrate();
+                    //ajout des données du fichiers seed
+                    Seed.SeedData(context);
                 }
                 catch (Exception ex)
                 {
